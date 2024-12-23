@@ -1,0 +1,119 @@
+/* help banner section start */
+.help-support-banner-img {
+  position: relative;
+}
+.help-support-banner {
+  display: flex;
+  align-items: center;
+  min-height: 625px;
+}
+.help-support-search {
+  width: 100%;
+  max-width: 509px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #dbedf3;
+  border-radius: 25px;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.1));
+  font-family: var(--cabin-fonts-family);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 17px;
+  color: var(--gray-theme-color);
+  padding: 10px 20px 10px 45px;
+}
+.form-control:focus {
+  color: var(--gray-theme-color);
+  background-color: white;
+  border-color: #dbedf3;
+  outline: 0;
+  box-shadow: none;
+}
+.help-support-search::placeholder {
+  font-family: var(--cabin-fonts-family);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 17px;
+  color: var(--gray-theme-color);
+}
+.help-support-search-area {
+  position: relative;
+  max-width: 509px;
+  width: 100%;
+}
+.help-support-search-area i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  font-size: 2.3rem;
+  color: var(--gray-theme-color);
+}
+.polygon-img {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+}
+
+/* help banner section end */
+
+/* help features section start */
+.support-features {
+  padding: 80px 0;
+}
+
+/* help features section end */
+
+/* responsive css */
+
+@media (max-width: 1279px) {
+  .help-support-banner-img {
+    height: auto;
+    max-width: 600px;
+  }
+  .polygon-img {
+    bottom: 20px;
+  }
+  .help-support-banner {
+    min-height: 590px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .help-support-banner {
+    min-height: 500px;
+  }
+  img.help-support-banner-img {
+    max-width: 50vw;
+  }
+  .polygon-img {
+    bottom: 20px;
+    width: 240px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner.p-0.help-support-banner {
+    padding: 45px 0 30px !important;
+  }
+  .polygon-img {
+    display: none;
+  }
+  .support-features {
+    padding: 50px 0;
+  }
+  img.help-support-banner-img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .top-priority-box.feature-box {
+    height: 250px;
+  }
+  .help-support-banner {
+    min-height: auto;
+  }
+}

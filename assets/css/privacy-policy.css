@@ -1,0 +1,167 @@
+/* Privacy Policy content section start */
+.privacy-policy-content-section {
+  padding: 80px 0;
+}
+.policy-list-btn {
+  font-family: var(--gendy-fonts-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 35px;
+  color: var(--gray-theme-color);
+  border: none;
+  background-color: transparent;
+}
+.privacy-policy-list {
+  list-style: decimal;
+  padding-left: 50px;
+}
+.privacy-policy-list-item::marker {
+  color: var(--gray-theme-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: var(--gendy-fonts-family);
+}
+.privacy-policy-list-item {
+  position: relative;
+}
+.privacy-policy-list-item::before {
+  content: url("../images/polygon-icon.png");
+  position: absolute;
+  top: 0;
+  left: -55px;
+  background-color: white;
+  border-radius: 45px;
+  display: none;
+  z-index: -1;
+}
+.privacy-policy-list-item.active::before {
+  display: block;
+}
+.privacy-policy-content {
+  max-height: 377px;
+  min-height: 377px;
+  overflow-y: auto;
+  padding: 0 70px 0 20px;
+  border-left: 2px solid #dbedf3;
+}
+.privacy-policy-content-title {
+  font-family: var(--gendy-fonts-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 25px;
+  color: var(--gray-theme-color);
+}
+.privacy-policy-content-list-item {
+  margin-top: 23px;
+}
+.privacy-policy-content-list {
+  list-style: disc;
+  padding-left: 25px;
+}
+.privacy-policy-content-list li::marker {
+  color: var(--gray-theme-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: var(--gendy-fonts-family);
+}
+.privacy-policy-content-inner {
+  margin-bottom: 20px;
+}
+.privacy-policy-content .privacy-policy-content-inner:last-child {
+  margin-bottom: 0;
+}
+.privacy-policy-content::-webkit-scrollbar {
+  width: 6px;
+  height: 75px;
+}
+.privacy-policy-content::-webkit-scrollbar-thumb {
+  background: #00818a;
+  border-radius: 25px;
+}
+.privacy-policy-content::-webkit-scrollbar-thumb:hover {
+  background: #00818a;
+}
+.terms-condition-banner-img {
+  top: 10px;
+}
+.privacy-policy-content-list.list-unstyled {
+  list-style: none;
+}
+.terms-condition.privacy-policy-content {
+  min-height: 250px;
+  max-height: 301px;
+}
+/* Privacy Policy content section end */
+
+/* responsive css start */
+
+@media (max-width: 1440px) {
+  .help-support-banner-img {
+    width: 55.8vw;
+    height: auto;
+    bottom: 0;
+    top: unset;
+  }
+  .circle-img {
+    width: 27.8vw;
+  }
+}
+
+@media (max-width: 1366px) {
+  .circle-img {
+    top: -20px;
+  }
+  .banner.about-us-banner {
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .help-support-banner-img {
+    width: 54vw;
+  }
+  .circle-img {
+    top: 30px;
+  }
+  .banner.about-us-banner {
+    min-height: 500px;
+  }
+  .privacy-policy-list {
+    padding-left: 20px;
+  }
+  .privacy-policy-content-section {
+    padding: 50px 0;
+  }
+  .privacy-policy-content {
+    padding: 0 40px 0 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner.about-us-banner {
+    min-height: auto;
+  }
+  .help-support-banner-img {
+    position: unset;
+    width: 100%;
+  }
+  .privacy-policy-content {
+    border-left: none;
+    padding: 0;
+    min-height: auto;
+    max-height: unset;
+    overflow-y: unset;
+  }
+  .privacy-policy-list {
+    display: none;
+  }
+  .privacy-policy-content-list-item {
+    margin-top: 10px;
+  }
+  .terms-condition.privacy-policy-content {
+    min-height: auto;
+    max-height: unset;
+  }
+}

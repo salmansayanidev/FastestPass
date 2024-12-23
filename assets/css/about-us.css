@@ -1,0 +1,90 @@
+/* about us section start */
+.about-us-content-section {
+  padding: 30px 0 130px;
+}
+
+.about-us-content-section .personal-digital-storage-left {
+  margin-top: 80px;
+}
+.circle-img-1 {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  z-index: -1;
+}
+.circle-img-2 {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  z-index: -1;
+}
+/* about us section end */
+
+/* how-we-are-different section start */
+.how-we-are-different {
+  padding-bottom: 80px;
+}
+.how-we-are-different .top-priority-box.feature-box {
+  height: 265px;
+}
+/* how-we-are-different section end */
+
+/* recognized major media outlet section start */
+.outlet-logo-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px 0;
+  flex-wrap: wrap;
+}
+
+/* recognized major media outlet section end */
+
+/* responsive css start */
+
+@media (max-width: 1366px) {
+  .circle-img-1 {
+    width: 16vw;
+  }
+  .circle-img-2 {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 1279px) {
+  .help-support-banner-img {
+    width: 60vw;
+  }
+  .about-us-content-section .personal-digital-storage-left {
+    margin-top: 50px;
+  }
+  .about-us-content-section {
+    padding: 30px 0 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  .help-support-banner-img {
+    display: none;
+  }
+  .about-us-content-section {
+    padding: 30px 0 30px;
+  }
+  .how-we-are-different {
+    padding-bottom: 40px;
+  }
+  .about-us-content-section .personal-digital-storage-left {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-us-content-section .personal-digital-storage-left {
+    margin-top: 10px;
+  }
+  .outlet-logo-list {
+    justify-content: center;
+    gap: 20px 30px;
+  }
+}

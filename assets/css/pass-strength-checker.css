@@ -1,0 +1,157 @@
+.password-strength-checker-main .comparing-by-categories-section,
+.password-strength-checker-2-main .comparing-by-categories-section {
+  padding: 80px 0 100px;
+}
+.seamless-polygon-1,
+.seamless-polygon-2 {
+  position: absolute;
+  z-index: -1;
+}
+.seamless-polygon-1 {
+  top: 50px;
+  left: -10px;
+}
+.seamless-polygon-2 {
+  top: -10px;
+  right: 80px;
+}
+.seamless-category-box {
+  height: 278px;
+  margin-top: 15px;
+}
+.password-strength-checker-main .results-section,
+.password-strength-checker-2-main .results-section {
+  margin-bottom: 60px;
+}
+.password-strength-checker-main .banner .polygon-img-1 {
+  transform: translate(-50%, -50%);
+}
+
+/* password strength checker 2 css start */
+.password-strength-checker-2-main .banner {
+  margin-bottom: 215px;
+}
+.pass-composition-area {
+  padding: 30px 10px 26px;
+  margin-bottom: 20px;
+}
+.pass-composition-para {
+  font-family: var(--spaceGrotesk-fonts-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 18px;
+  color: var(--gray-theme-color);
+}
+.pass-comp-list {
+  padding-left: 20px;
+}
+.pass-comp-list-item.before {
+  position: relative;
+}
+.pass-comp-list-item.before::before {
+  content: url("../images/tick-square-2.png");
+  position: absolute;
+  top: 4px;
+  left: -20px;
+}
+.leaks-text {
+  font-family: var(--gendy-fonts-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 15px;
+  color: #1eae98;
+}
+.leaks-result-area {
+  margin-top: 20px;
+  height: 65px;
+  background: rgba(30, 174, 152, 0.25);
+  border: 1px solid #1eae98;
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  align-items: center;
+  padding: 25px 30px;
+}
+.password-strength-checker-2-main .pass-gene-form-area {
+  margin-bottom: -405px;
+}
+.password-strength-checker-2-main .banner .polygon-img-1 {
+  transform: translate(-48%, -78%);
+}
+/* password strength checker 2 css start */
+
+/* responsive css  */
+
+@media (max-width: 1366px) {
+  .password-strength-checker-2-main .banner .polygon-img-1 {
+    transform: translate(-52%, -78%);
+    width: 61vw;
+  }
+}
+
+@media (max-width: 1279px) {
+  .password-strength-checker-main .comparing-by-categories-section,
+  .password-strength-checker-2-main .comparing-by-categories-section {
+    padding: 50px 0 70px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .password-strength-checker-2-main .password-generator-banner {
+    min-height: 500px;
+  }
+  .seamless-polygon-1 {
+    width: 500px;
+  }
+  .password-strength-checker-2-main .banner .polygon-img-1 {
+    transform: translate(-50%, -79%);
+    width: 59vw;
+  }
+  .pass-composition-area {
+    padding: 20px 0px 20px;
+    margin-bottom: 20px;
+  }
+  .password-strength-checker-2-main .banner {
+    margin-bottom: 215px;
+  }
+}
+
+@media (max-width: 991px) {
+  .password-strength-checker-2-main .banner {
+    margin-bottom: 0;
+  }
+  .leaks-result-area {
+    height: 50px;
+    padding: 25px 20px;
+  }
+  .password-strength-checker-main .comparing-by-categories-section,
+  .password-strength-checker-2-main .comparing-by-categories-section {
+    padding: 50px 0 20px;
+  }
+  .password-strength-checker-main .results-section,
+  .password-strength-checker-2-main .results-section {
+    margin-bottom: 20px;
+  }
+  .password-strength-checker-2-main .password-generator-banner {
+    min-height: auto;
+  }
+  .password-strength-checker-2-main .pass-gene-form-area {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .seamless-category-box {
+    height: 230px;
+  }
+}
+
+@media (max-width: 575px) {
+  .pass-delete-general-text {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,160 @@
+.student-discount-main .results-section {
+  padding: 30px 0;
+}
+.student-discount-banner .polygon-img {
+  position: absolute;
+  left: 10px;
+  bottom: 130px;
+}
+.guarantee-note {
+  font-family: var(--spaceGrotesk-fonts-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 13px;
+  text-align: center;
+  color: #ffffff;
+}
+.student-discount-banner .become-affiliate-cta {
+  padding: 11px 16px;
+}
+.student-discount-main .install-lockmypass .become-affiliate-cta {
+  padding: 11px 21px;
+}
+.student-discount-content {
+  padding: 74px 0;
+}
+.student-discount-content .advance-your-security-left {
+  margin-top: 110px;
+}
+.triangle-img-1 {
+  position: absolute;
+  z-index: -1;
+  top: -100px;
+  right: 0;
+}
+
+.student-discount-content.section-2 {
+  padding: 250px 0 130px;
+}
+.triangle-img-2,
+.sm-triangle-2,
+.sm-triangle-1,
+.sm-triangle-3,
+.sm-triangle-4 {
+  position: absolute;
+}
+.sm-triangle-1 {
+  top: 65px;
+  left: 0;
+}
+.triangle-img-2 {
+  top: -30px;
+  z-index: -1;
+  left: 0;
+}
+.sm-triangle-2 {
+  top: -50px;
+  left: 40%;
+  transform: translateX(-50%);
+}
+.mobile-img-2 {
+  position: relative;
+  left: 20px;
+}
+.sm-triangle-3 {
+  bottom: 60px;
+  left: 52%;
+  transform: translateX(-50%);
+}
+.sm-triangle-4 {
+  bottom: 70px;
+  right: 0;
+}
+
+/* responsive css */
+
+@media (max-width: 1440px) {
+  .student-discount-banner-img {
+    width: 53.5vw;
+  }
+}
+
+@media (max-width: 1366px) {
+  .student-discount-banner .polygon-img {
+    bottom: 60px;
+  }
+  .triangle-img-1 {
+    top: -80px;
+    width: 40vw;
+  }
+  .triangle-img-2 {
+    top: 0px;
+    width: 40vw;
+  }
+}
+
+@media (max-width: 1279px) {
+  .sm-triangle-1 {
+    top: 30px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .sm-triangle-2 {
+    top: -20px;
+    width: 180px;
+    left: 45%;
+  }
+  .student-discount-content.section-2 {
+    padding: 150px 0 100px;
+  }
+  .sm-triangle-3 {
+    bottom: 20px;
+    left: 53%;
+  }
+  .sm-triangle-4 {
+    bottom: 30px;
+    width: 150px;
+  }
+  .triangle-img-1 {
+    top: -60px;
+    width: 45vw;
+  }
+  .triangle-img-2 {
+    top: 0px;
+    width: 45vw;
+  }
+  .student-discount-content {
+    padding: 40px 0;
+  }
+  .student-discount-content .advance-your-security-left {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 991px) {
+  .student-discount-banner .polygon-img,
+  .sm-triangle-1,
+  .triangle-img-1,
+  .sm-triangle-2,
+  .triangle-img-2,
+  .sm-triangle-3,
+  .sm-triangle-4 {
+    display: none;
+  }
+  .student-discount-banner .banner-left,
+  .student-discount-content .advance-your-security-left {
+    margin-top: 0;
+  }
+  .student-discount-banner-img {
+    width: 100%;
+    position: unset;
+  }
+  .student-discount-content.section-2 {
+    padding: 60px 0 60px;
+  }
+  .student-discount-content-right.float-end {
+    float: unset !important;
+  }
+}

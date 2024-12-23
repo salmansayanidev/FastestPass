@@ -1,0 +1,152 @@
+/* app windows banner start */
+.app-banner {
+  min-height: 625px;
+  display: flex;
+  align-items: center;
+}
+
+img.app-window-bnner-img {
+  position: absolute;
+  /* top: 0; */
+  right: 0;
+  bottom: 0;
+  /* transform: translateY(-42%); */
+  /* height: 100%; */
+}
+.app-banner-polygon {
+  position: absolute;
+  left: 20px;
+  bottom: 110px;
+}
+.app-bnner-cta {
+  font-size: 1.2rem;
+  font-family: var(--spaceGrotesk-fonts-family);
+  font-weight: 700;
+  color: white;
+  background-color: var(--gray-theme-color);
+  font-style: normal;
+  line-height: 15px;
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  padding: 17.5px 32px;
+}
+.app-bnner-cta {
+  font-size: 1.2rem;
+  font-family: var(--spaceGrotesk-fonts-family);
+  font-weight: 700;
+  color: white;
+  background-color: var(--gray-theme-color);
+  font-style: normal;
+  line-height: 15px;
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  padding: 5px 21px;
+}
+.app-bnner-cta i {
+  font-size: 4rem;
+}
+
+/* app windows banner end */
+
+/* responsive css */
+
+@media (max-width: 1279px) {
+  img.app-window-bnner-img {
+    width: 800px;
+    height: auto;
+    bottom: 50px;
+  }
+  .app-banner {
+    min-height: 590px;
+  }
+  .app-description-list-section .banner-title br {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .app-description-list-section {
+    padding: 120px 0 140px;
+    position: relative;
+  }
+  img.app-window-bnner-img {
+    width: 60vw;
+  }
+  .app-banner {
+    min-height: 550px;
+  }
+  .app-banner-polygon {
+    left: 10px;
+    bottom: 30px;
+  }
+}
+
+
+
+@media (max-width: 991px) {
+  .app-btns {
+    text-align: -webkit-center;
+  }
+  .app-banner-polygon {
+    display: none;
+  }
+  img.app-window-bnner-img {
+    position: unset;
+    width: 100%;
+  }
+  img.app-desc-polygon-two {
+    width: 50px;
+    top: 10px;
+  }
+  .app-description-list-section {
+    padding: 60px 0 80px;
+  }
+  .app-desc-polygon-four {
+    bottom: 10px;
+    width: 90px;
+  }
+  img.app-desc-polygon-one {
+    width: 220px;
+  }
+}
+
+@media (max-width: 767px) {
+  .simlifying-browsing-section {
+    padding: 40px 0 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  img.app-desc-polygon-two {
+    display: none;
+  }
+  .app-description-list-section {
+    padding: 20px 0 80px;
+  }
+  img.app-desc-polygon-one {
+    display: none;
+  }
+  .app-banner {
+    min-height: auto;
+  }
+  .banner-para {
+    margin: 10px 0 10px;
+  }
+  .app-bnner-cta i {
+    font-size: 3rem;
+  }
+  .app-bnner-cta {
+    height: 45px;
+  }
+}
