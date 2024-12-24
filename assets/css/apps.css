@@ -20,7 +20,7 @@ img.app-window-bnner-img {
 }
 .app-bnner-cta {
   font-size: 1.2rem;
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-weight: 700;
   color: white;
   background-color: var(--gray-theme-color);
@@ -37,7 +37,7 @@ img.app-window-bnner-img {
 }
 .app-bnner-cta {
   font-size: 1.2rem;
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-weight: 700;
   color: white;
   background-color: var(--gray-theme-color);

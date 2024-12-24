@@ -71,7 +71,7 @@ html {
 }
 :root {
   --gendy-fonts-family: "Gendy";
-  --spaceGrotesk-fonts-family: "SpaceGrotesk";
+  --space-grotesk-fonts-family: "SpaceGrotesk";
   --cabin-fonts-family: "Cabin", sans-serif;
   --gray-theme-color: #404b69;
   --primary-btn-color: #d83f31;
@@ -119,7 +119,7 @@ a {
   font-family: var(--gendy-fonts-family) !important;
 }
 .spaceGrotesk-font-family {
-  font-family: var(--spaceGrotesk-fonts-family) !important;
+  font-family: var(--space-grotesk-fonts-family) !important;
 }
 .text-red {
   color: var(--primary-btn-color) !important;
@@ -204,7 +204,7 @@ input[type="number"] {
   color: var(--gray-theme-color);
 }
 .banner-para {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-weight: 400;
   color: var(--gray-theme-color);
   font-size: 1.6rem;
@@ -217,7 +217,7 @@ input[type="number"] {
   gap: 10px;
 }
 .compatible-devices-name {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
@@ -282,7 +282,7 @@ input[type="number"] {
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
 }
 .pricing-note {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 500;
   font-size: 1.2rem;
@@ -318,7 +318,7 @@ input[type="number"] {
   border-radius: 0px 45px 45px 0px;
 }
 .recommended-tag {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   color: white;
   background-color: var(--primary-btn-color);
   right: 0;
@@ -362,7 +362,7 @@ input[type="number"] {
   margin: 15px 0 5px;
 }
 .pricing-box-feature {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 400;
   font-size: 1.4rem;
@@ -389,7 +389,7 @@ input[type="number"] {
 }
 .list-para {
   color: #878787;
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;
@@ -475,7 +475,7 @@ input[type="number"] {
   padding-bottom: 80px;
 }
 .faq-item-text {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 400;
   font-size: 1.4rem;
@@ -484,7 +484,7 @@ input[type="number"] {
   margin-top: 15px;
 }
 .faq-btn {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -533,7 +533,7 @@ input[type="number"] {
 .faq-list li::marker {
   color: var(--gray-theme-color);
   font-size: 1.4rem;
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-weight: 400;
 }
 /* frequently asked questions section end */
@@ -550,7 +550,7 @@ input[type="number"] {
   margin: 18px 0 15px;
 }
 .top-priority-para {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 400;
   font-size: 1.4rem;
@@ -710,7 +710,7 @@ input[type="number"] {
   margin: 18px 0 20px;
 }
 .advance-security-list-text {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 400;
   font-size: 1.4rem;
@@ -770,7 +770,7 @@ input[type="number"] {
   height: 25px;
 }
 .section-sb-title {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 700;
   font-size: 2.4rem;
@@ -785,7 +785,7 @@ input[type="number"] {
 .advance-your-security-list-item .para {
   font-size: 1.6rem;
   line-height: 35px;
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-weight: 400;
   margin: 0;
 }
@@ -961,7 +961,7 @@ img.app-desc-polygon-three {
 }
 
 .memberlogin-para {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -1012,7 +1012,7 @@ img.app-desc-polygon-three {
   right: 0;
 }
 .about-us-para {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 400;
   font-size: 1.4rem;
@@ -1025,7 +1025,7 @@ img.app-desc-polygon-three {
 /* footer start */
 .footer-btn,
 .affiliate-login-cta {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;

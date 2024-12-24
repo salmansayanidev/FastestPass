@@ -3,7 +3,7 @@
   padding: 100px 0 20px;
 }
 .blog-tab-btn {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 700;
   font-size: 1.4rem;
@@ -215,7 +215,7 @@
   margin: 20px 0 40px;
 }
 .blog-desc-para {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;
@@ -224,7 +224,7 @@
   margin-bottom: 15px;
 }
 .blog-detail-sub-title {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 700;
   font-size: 1.4rem;

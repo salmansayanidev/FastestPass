@@ -249,7 +249,7 @@
   align-items: center;
 }
 .gene-username {
-  font-family: var(--spaceGrotesk-fonts-family);
+  font-family: var(--space-grotesk-fonts-family);
   font-style: normal;
   font-weight: 400;
   font-size: 1.4rem;
