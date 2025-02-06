@@ -43,7 +43,7 @@
                                         </form>
                                         <div class="forget-password-text-area">
                                             <a class="forget-password-link" href="signup.php">Create your Lockmypass account</a>
-                                            <a class="forget-password-link" href="#">Forgot password?</a>
+                                            <a class="forget-password-link" href="forgot-password.php">Forgot password?</a>
                                         </div>
                                         <div class="login-advance-option-area active">
                                             <button class="login-advance-option-btn" type="button">

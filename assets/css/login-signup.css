@@ -2,12 +2,14 @@
 .login-signup-section {
   padding: 100px 0 246px;
 }
+
 .login-form-area {
   max-width: 500px;
   width: 100%;
   float: right;
   margin-bottom: -161px;
 }
+
 .login-signup-area {
   min-height: 425px;
   background-image: url("../images/login-bg-img.png");
@@ -27,6 +29,7 @@
   border: 1px solid #dbedf3;
   border-top: none;
 }
+
 .login-form-area-top {
   display: flex;
   justify-content: space-between;
@@ -34,6 +37,7 @@
   flex-wrap: wrap;
   overflow: hidden;
 }
+
 .login-sign-link {
   width: 50%;
   display: flex;
@@ -53,10 +57,12 @@
   border: 1px solid #dbedf3;
   border-top: none;
 }
+
 .login-form-area-top .login-sign-link:first-child {
   border-radius: 45px 0 0 0;
   border-right: none;
 }
+
 .login-sign-link.active {
   background-color: white;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
@@ -74,6 +80,7 @@
   padding-left: 25px;
   margin-bottom: 10px;
 }
+
 .login-form .form-group {
   margin-top: 10px;
 }
@@ -86,6 +93,7 @@
   padding-bottom: 20px;
   border-bottom: 1.5px solid #dbedf3;
 }
+
 .forget-password-link {
   font-family: var(--gendy-fonts-family);
   font-style: normal;
@@ -98,6 +106,7 @@
 .login-advance-option-list-item {
   margin-bottom: 14px;
 }
+
 .switch {
   position: relative;
   display: inline-block;
@@ -136,15 +145,15 @@
   transform: translate(0, -50%);
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #1dc9a0;
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: 0 0 1px #1dc9a0;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translate(11px, -50%);
   -ms-transform: translate(11px, -50%);
   transform: translate(11px, -50%);
@@ -158,15 +167,18 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
 .login-advance-option-list-item {
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 12px;
 }
+
 .login-advance-option-list .login-advance-option-list-item:last-child {
   margin-bottom: 0;
 }
+
 .login-advance-option-area.active .login-advance-option-btn i {
   transform: rotate(180deg);
 }
@@ -174,9 +186,11 @@ input:checked + .slider:before {
 .login-signup-section.signup .login-signup-area {
   background-image: url("../images/signup-bg-img.png");
 }
+
 .login-signup-section.signup .login-sign-link.active {
   box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.1);
 }
+
 .platform-link {
   height: 65px;
   border: 1px solid #dbedf3;
@@ -187,38 +201,66 @@ input:checked + .slider:before {
   align-items: center;
   margin-top: 20px;
 }
+
 .progress.signup-password {
   height: 10px !important;
   background: #eff9fe;
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.05);
   border-radius: 50px;
 }
+
 .progress-bar {
   background-color: var(--primary-btn-color) !important;
 }
+
 .login-signup-section.signup .login-form-area {
   margin-bottom: -346px;
 }
+
 .login-signup-section.signup {
   padding: 100px 0 445px;
 }
+
 /* login signup css end */
 
 /* content us content css start */
 .contact-us-content-section {
   padding-bottom: 70px;
 }
+
 .banner-para.border-top {
   margin-bottom: 40px;
   padding-top: 70px;
 }
+
 .contact-us-content-section .become-affiliate-bnner-list li::before {
   content: url("../images/tick-square-2.png");
   position: absolute;
   top: 4px;
   left: -20px;
 }
+
 /* content us content css end */
+
+.reset-para {
+  font-family: var(--space-grotesk-fonts-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 18px;
+  color: var(--gray-theme-color);
+  text-align: center;
+}
+
+.forgot-pass-section .login-signup-area {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-height: auto;
+}
+
+.forgot-pass-section .login-signup-area .login-form-area {
+  margin-bottom: 0;
+}
 
 /* responsive css start */
 
@@ -226,13 +268,16 @@ input:checked + .slider:before {
   .login-signup-section {
     padding: 60px 0 230px;
   }
+
   .login-signup-section.signup {
     padding: 60px 0 400px;
   }
+
   .banner-para.border-top {
     margin-bottom: 30px;
     padding-top: 50px;
   }
+
   .contact-us-content-section {
     padding-bottom: 60px;
   }
@@ -246,15 +291,24 @@ input:checked + .slider:before {
 }
 
 @media (max-width: 991px) {
+
+  .forgot-pass-section .login-signup-area {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .login-signup-section.signup .login-signup-area {
     background-image: none;
   }
+
   .login-signup-section.signup .login-form-area {
     margin-bottom: 0;
   }
+
   .login-signup-section.signup {
     padding: 60px 0 60px;
   }
+
   .login-signup-area {
     min-height: auto;
     background-image: none;
@@ -262,27 +316,34 @@ input:checked + .slider:before {
     padding: 0;
     border-radius: 0;
   }
+
   .login-form-area {
     max-width: 500px;
     float: unset;
     margin: 0 auto;
   }
+
   .login-signup-section {
     padding: 60px 0 60px;
   }
+
   .login-form-area-bottom {
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
   }
+
   .forget-password-link {
     font-size: 1.2rem;
   }
+
   .platform-link {
     height: 60px;
   }
+
   .login-form-area-top {
     box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
     border-radius: 45px 45px 0 0;
   }
+
   .contact-us-content-section {
     padding-bottom: 40px;
   }
@@ -292,17 +353,21 @@ input:checked + .slider:before {
   .login-form-area-bottom {
     padding: 20px 20px 20px;
   }
+
   .login-signup-section {
     padding: 40px 0 50px;
   }
+
   .forget-password-text-area {
     align-items: start;
     flex-direction: column;
     gap: 10px 0;
   }
+
   .login-sign-link {
     font-size: 2rem;
   }
+
   .login-signup-section.signup {
     padding: 40px 0 50px;
   }
