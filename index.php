@@ -1,5 +1,6 @@
 <?php include('./includes/header.php'); ?>
 <link rel="stylesheet" href="./assets/css/index.css">
+<link rel="stylesheet" href="./assets/css/payment-section.css">
 
 <main>
 
@@ -218,6 +219,10 @@
     <!-- pricing section start -->
     <?php include './includes/pricing-section.php'; ?>
     <!-- pricing section end -->
+
+    <!-- payment section start -->
+    <?php include "./includes/payment-section.php"; ?>
+    <!-- payment section end -->
 
     <!-- reviews section start -->
     <section class="reviews-section">

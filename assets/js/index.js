@@ -26,3 +26,10 @@ $(".reviews-slider-area").slick({
   prevArrow: ".review-slider-btn.prev-btn",
   nextArrow: ".review-slider-btn.next-btn",
 });
+
+
+$("#payment").hide();
+
+$(".buyvpnbutton ").mouseover(function () {
+  $("#payment").slideDown();
+});
